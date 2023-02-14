@@ -28,7 +28,11 @@ class _BlackJackScreenState extends State<BlackJackScreen> {
                 children: [
                   Column(
                     children: [
-                      Text("Dealer's Score"),
+                      Text(
+                        "Dealer's Score",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold),
+                      ),
                       SizedBox(
                         height: 300,
                         child: GridView.builder(
@@ -44,7 +48,11 @@ class _BlackJackScreenState extends State<BlackJackScreen> {
                   ),
                   Column(
                     children: [
-                      Text("Player's Score"),
+                      Text(
+                        "Player's Score",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold),
+                      ),
                       SizedBox(
                         height: 300,
                         child: GridView.builder(
